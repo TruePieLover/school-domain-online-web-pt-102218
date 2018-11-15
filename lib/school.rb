@@ -16,4 +16,11 @@ class School
    def grade(grade)
     roster[grade]
   end
+  def sort
+    newsort = {}
+    roster.each do |x,y|
+        newsort[x] = y.sort
+    end
+    newsort
+  end
  end
