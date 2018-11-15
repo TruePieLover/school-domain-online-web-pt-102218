@@ -13,4 +13,7 @@ class School
        @roster[grade] = [name]
      end
    @roster 
+   def grade(grade)
+    roster[grade]
+  end
  end
